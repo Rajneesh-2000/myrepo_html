@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: url(/sharmabartan_bhandar.avif) no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  header .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 12px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: #ff8000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #cc6600;
+  }
+  
+  .about, .products, .contact {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .products .product-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  .products .product {
+    background: #f2f2f2;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 1rem;
+  }
